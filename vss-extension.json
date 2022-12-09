@@ -1,0 +1,47 @@
+{
+  "manifestVersion": 1,
+  "version": "0.0.1",
+  "name": "DevOps Embed Design",
+  "description": "DevOps Embed Design allows users to seamlessly integrate their Figma designs into Azure DevOps.",
+  "publisher": "joshm998",
+  "demands": ["api-version/3.0"],
+  "categories": ["Azure Repos"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services.Cloud"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "README.md"
+    }
+  },
+  "icons": {
+    "default": "img/icon.png"
+  },
+  "files": [
+    {
+      "path": "dist",
+      "addressable": true
+    },
+    {
+      "path": "img",
+      "addressable": true
+    }
+  ],
+  "scopes":[ "vso.work" ],
+  "contributions": [
+    {  
+        "id": "work-item-design-page",
+        "type": "ms.vss-work-web.work-item-form-page",
+        "description": "Design page for work items",
+        "targets": [
+            "ms.vss-work-web.work-item-form"
+        ],
+        "properties": {
+            "name": "Designs",
+            "uri": "dist/design/design.html"
+        } 
+    }
+]
+}
