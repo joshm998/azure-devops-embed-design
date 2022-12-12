@@ -112,14 +112,8 @@ const Hub: React.FC<{}> = (props: any) => {
                     </Page> : <div></div>}
 
                 </div> :
-                <ZeroData iconProps={{
-                    iconName: "Sad"
-                }} imageAltText="Sad Face" primaryText="No Designs Found..." secondaryText={<span>
-                    Check out the{" "}
-                    <a rel="nofollow noopener" target="_blank" href="https://github.com/joshm998/azure-devops-embed-design">
-                        documentation
-                    </a>{" "}
-                    to see how to add designs.
+                <ZeroData primaryText="No Designs Found..." secondaryText={<span>
+                    Add design links in the description of the work item for them to show here.
                 </span>} />}
         </Page>
     );
