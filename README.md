@@ -1,7 +1,6 @@
 # Azure DevOps Embed Design
 
-Azure DevOps Embed Design is a extension that allows users to seamlessly integrate their Figma designs into Azure DevOps. With this extension, designers can easily share their designs with the development team, who can then use the designs to build and implement the user interface for a project. This extension makes it possible for designers to embed their designs into Azure DevOps work items, allowing developers and designs to keep on the same page.
-
+Azure DevOps Embed Design is a extension that allows users to seamlessly integrate their Figma designs into Azure DevOps. With this extension, designers can easily share their designs with the development team, who can then use the designs to build and implement the user interface for a project. This extension makes it possible for designers to embed their designs into Azure DevOps work items, allowing developers and designs to keep on the same page. Adding designs is as simple as adding a link into the description of the DevOps work item.
 
 ## Running Locally for Development
 

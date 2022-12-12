@@ -112,7 +112,7 @@ const Hub: React.FC<{}> = (props: any) => {
                     </Page> : <div></div>}
 
                 </div> :
-                <ZeroData primaryText="No Designs Found..." secondaryText={<span>
+                <ZeroData imageAltText="No Designs Found" primaryText="No Designs Found..." secondaryText={<span>
                     Add design links in the description of the work item for them to show here.
                 </span>} />}
         </Page>

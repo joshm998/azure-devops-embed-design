@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "DevOps Embed Design",
   "description": "DevOps Embed Design allows users to seamlessly integrate their Figma designs into Azure DevOps.",
   "publisher": "joshm998",
